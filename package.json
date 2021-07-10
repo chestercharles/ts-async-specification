@@ -1,0 +1,36 @@
+{
+  "name": "ts-async-specification",
+  "version": "1.0.0",
+  "description": "Async implementation of the specification pattern in TypeScript",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier *.ts test/* --write",
+    "clean": "rm -rf *.js && rm -rf *.d.ts && rm -rf src/*.js",
+    "test": "ts-mocha -p tsconfig.json test/**/*.test.ts",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
+  },
+  "author": "Chester Carmer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chestercharles/ts-async-specification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chestercharles/ts-async-specification/issues"
+  },
+  "homepage": "https://github.com/chestercharles/ts-async-specification#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^8.2.3",
+    "babel-preset-minify": "^0.5.1",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "nyc": "^15.1.0",
+    "prettier": "^2.3.2",
+    "ts-mocha": "^8.0.0",
+    "typescript": "^4.3.5"
+  }
+}
