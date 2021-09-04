@@ -1,6 +1,6 @@
 {
   "name": "ts-async-specification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Async implementation of the specification pattern in TypeScript",
   "main": "index.js",
   "types": "index.d.ts",

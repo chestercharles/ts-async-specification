@@ -1,3 +1,9 @@
+# DEPRECATED
+
+Library has been moved to a new repository: [async-specification](https://github.com/chestercharles/async-specification)
+
+---
+
 # ts-async-specification
 
 A asynchronous implementation of the specification pattern
